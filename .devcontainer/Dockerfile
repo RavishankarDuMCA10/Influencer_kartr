@@ -1,10 +1,10 @@
 FROM python:3.11
 
 # Set work directory
-WORKDIR /workspace
+WORKDIR /Influencer_kartr
 
 # Install Python dependencies
-COPY Influencer_kartr/requirements.txt requirements.txt
+COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Install additional tools
