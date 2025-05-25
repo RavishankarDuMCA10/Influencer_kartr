@@ -7,7 +7,7 @@ GEMINI_API_KEY = "AIzaSyA2zJEBibJuH4Of7wxp0InifK0uw9gNMzE"
 genai.configure(api_key=GEMINI_API_KEY)
 
 CSV_PATH_1 = os.path.join('data', 'analysis_results.csv')
-CSV_PATH_2 = os.path.join('data', 'ANALYSIS.csv')
+CSV_PATH_2 = os.path.join('data', 'ANALYSIS.CSV')
 df1 = pd.read_csv(CSV_PATH_1)
 df2 = pd.read_csv(CSV_PATH_2)
 df = pd.concat([df1, df2], ignore_index=True)
